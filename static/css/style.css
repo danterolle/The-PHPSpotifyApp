@@ -1,0 +1,225 @@
+#title {
+    background-color: #c3c3c3;
+    color: black;
+    height: auto;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    wIDth: 100%;
+    margin-right: 0px;
+    margin-left: 0%;
+}
+
+body {
+    margin: 0 auto;
+    /*background-color: url("immagini/bg.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+#research {
+    display: flex;
+    flex-direction: row;
+    background-position: center;
+    height: 100%;
+}
+
+#label {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+input[type=text] {
+    wIDth: 100%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    background: #f1f1f1;
+    float: left;
+}
+
+input[type=text]:focus {
+    background-color: grey;
+    outline: none;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#menubar {
+    display: flex;
+    wIDth: 20%;
+    height: 100%;
+    background-color:rgb(55, 71, 79);
+    flex-direction: column;
+    word-wrap: break-word;
+}
+ 
+#visualizzaPlaylist {
+    wIDth: 100%;
+    height: 65%;
+    overflow: auto;
+    border: 1px solID grey;
+}
+
+#visualizzaContenuti {
+    wIDth: 70%;
+    overflow: auto;
+    border: 1px solID grey;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.raccolta {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.raccolta img {
+    height: 200px;
+    wIDth: 200px;
+}
+
+#MenuRicerca {
+    display: flex;
+    wIDth: 20%;
+    background-color: rgb(55, 71, 79);
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+li a {
+    color: #c3c3c3;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    color: #c3c3c3;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+a {
+    color: black; 
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+}
+
+#FormRicerca{
+    wIDth: 70%;
+    margin: 0 auto;
+}
+
+#FormRicerca input, label, button{
+    font-size: 30px;
+    display: block;
+    border-radius: 10px;
+}
+
+#FormRicerca button {
+    background-color: grey; 
+    border-radius: 10px; 
+    color: #fff;    
+    padding: 0;           
+    font-weight: bold;                  
+    wIDth: 100px;               
+  }
+
+#contenuti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    wIDth:80vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    wIDth: 30%;
+    height: 60%; 
+    margin:10px;
+    margin-bottom: 20px;
+    word-wrap: break-word;
+    overflow: hIDden;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgb(55, 71, 79);
+    border-radius: 10px;
+}
+
+.contenitore a {
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+.contenitore img {
+    wIDth: 100%;
+}
+
+#selezionaRaccolta {
+    wIDth: 70%;
+    margin: 0 auto;
+}
+
+#selezionaRaccolta input, label, button {
+    font-size: 30px;
+}
+
+#afterSelect {
+    font-size: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+#selezionaRaccolta button {
+    background-color: grey; 
+    border-radius: 10px; 
+    color: #fff;    
+    padding: 0;                          
+    wIDth: 100px;
+    font-weight: bold;
+}
+
+.hIDden {
+    display: none;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+button {
+    margin: 0 auto;
+}
+
+#DivRaccolte {
+   wIDth: 70%; 
+   margin: 0 auto;
+}
